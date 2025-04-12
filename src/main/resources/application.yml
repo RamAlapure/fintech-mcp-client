@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: fintech-mcp-client
+
+server:
+  port: 5000
+
+logging:
+  level:
+    root: debug
+    dev:
+        langchain4j: debug
